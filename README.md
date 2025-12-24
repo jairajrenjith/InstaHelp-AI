@@ -1,4 +1,4 @@
-# InstaHelp-AI
+# InstaHelp AI
 
 InstaHelp-AI is a fast, intent-based AI chatbot built using natural language processing techniques.
 It is designed to answer questions related to computer science, programming, AI, Python, and core CS subjects with instant and reliable responses.

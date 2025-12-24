@@ -22,11 +22,11 @@ This design avoids hallucinations and ensures consistent, correct answers.
 
 ## How It Works
 
-1. The user enters a query in natural language.
-2. The input is converted into a semantic embedding using a pretrained NLP model.
-3. The system compares the input embedding with stored intent embeddings.
-4. The most similar intent is selected using cosine similarity.
-5. The response associated with that intent is returned.
+- The user enters a query in natural language.
+- The input is converted into a semantic embedding using a pretrained NLP model.
+- The system compares the input embedding with stored intent embeddings.
+- The most similar intent is selected using cosine similarity.
+- The response associated with that intent is returned.
 
 If no intent matches with sufficient confidence, a safe fallback response is shown.
 
@@ -34,17 +34,17 @@ If no intent matches with sufficient confidence, a safe fallback response is sho
 
 ## Tech Stack Used
 
-Python  
-Sentence Transformers (MiniLM)  
-Scikit-learn  
-NumPy  
-Streamlit  
+- Python  
+- Sentence Transformers (MiniLM)  
+- Scikit-learn  
+- NumPy  
+- Streamlit  
 
 ---
 
 ## Model Used
 
-all-MiniLM-L6-v2 (Sentence Transformer)
+- all-MiniLM-L6-v2 (Sentence Transformer)
 
 This lightweight pretrained model is used only for semantic similarity matching, not for text generation.
 It runs efficiently on CPU and enables instant responses.
@@ -71,36 +71,36 @@ InstaHelp-AI/
 
 ## Installation and Setup
 
-Clone the repository:
+1. Clone the repository:
 
 ```bash
 git clone <repository-link>
 ```
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 
 ```bash
 cd InstaHelp-AI
 ```
 
-Create a virtual environment:
+3. Create a virtual environment:
 
 ```bash
 python -m venv venv
 ```
 
-Activate the environment:
+4. Activate the environment:
 
-Windows:
+a. Windows:
 ```bash
 venv\Scripts\activate
 ```
-Linux / macOS:
+b. Linux / macOS:
 ```bash
 source venv/bin/activate
 ```
 
-Install dependencies:
+5. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -110,13 +110,13 @@ pip install -r requirements.txt
 
 ## Running the Application
 
-Start the Streamlit app using:
+1. Start the Streamlit app using:
 
 ```bash
 streamlit run app.py
 ```
 
-Once launched, open your browser and go to:
+2. Once launched, open your browser and go to:
 
 ```
 http://localhost:8501
@@ -146,10 +146,10 @@ http://localhost:8501
 
 ## Notes
 
-No external APIs are used.
-No datasets are required.
-All responses are deterministic and intent-driven.
-Designed for fast execution and Streamlit Cloud deployment.
+- No external APIs are used.
+- No datasets are required.
+- All responses are deterministic and intent-driven.
+- Designed for fast execution and Streamlit Cloud deployment.
 
 ---
 

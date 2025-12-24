@@ -73,38 +73,38 @@ InstaHelp-AI/
 
 1. Clone the repository:
 
-```bash
-git clone <repository-link>
-```
+    ```bash
+    git clone <repository-link>
+    ```
 
 2. Navigate to the project directory:
 
-```bash
-cd InstaHelp-AI
-```
+    ```bash
+    cd InstaHelp-AI
+    ```
 
 3. Create a virtual environment:
 
-```bash
-python -m venv venv
-```
+    ```bash
+    python -m venv venv
+    ```
 
 4. Activate the environment:
 
-a. Windows:
-```bash
-venv\Scripts\activate
-```
-b. Linux / macOS:
-```bash
-source venv/bin/activate
-```
+    a. Windows:
+    ```bash
+    venv\Scripts\activate
+    ```
+    b. Linux / macOS:
+   ```bash
+     source venv/bin/activate
+   ```
 
-5. Install dependencies:
+6. Install dependencies:
 
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+    pip install -r requirements.txt
+    ```
 
 ---
 
@@ -112,15 +112,15 @@ pip install -r requirements.txt
 
 1. Start the Streamlit app using:
 
-```bash
-streamlit run app.py
-```
+    ```bash
+    streamlit run app.py
+    ```
 
 2. Once launched, open your browser and go to:
 
-```
-http://localhost:8501
-```
+    ```bash
+    http://localhost:8501
+    ```
 
 ---
 

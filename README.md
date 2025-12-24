@@ -123,6 +123,13 @@ InstaHelp-AI/
     ```
 
 ---
+## Hosted Link
+
+```bash
+https://insta-h-e-l-p-ai.streamlit.app/
+```
+
+---
 
 ## Example Questions
 

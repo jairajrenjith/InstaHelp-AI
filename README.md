@@ -1,6 +1,6 @@
 # InstaHelp AI
 
-InstaHelp-AI is a fast, intent-based AI chatbot built using natural language processing techniques.
+InstaHelp AI is a fast, intent-based AI chatbot built using natural language processing techniques.
 It is designed to answer questions related to computer science, programming, AI, Python, and core CS subjects with instant and reliable responses.
 
 The chatbot prioritizes speed, correctness, and predictability, making it suitable for educational demos, beginner learning tools, and Streamlit deployment.
@@ -9,7 +9,7 @@ The chatbot prioritizes speed, correctness, and predictability, making it suitab
 
 ## About The Project
 
-InstaHelp-AI is an intent-recognition chatbot that uses semantic sentence embeddings to understand user queries and map them to predefined knowledge areas.
+InstaHelp AI is an intent-recognition chatbot that uses semantic sentence embeddings to understand user queries and map them to predefined knowledge areas.
 
 Instead of generating answers dynamically, the chatbot:
 - Understands the meaning of the user input

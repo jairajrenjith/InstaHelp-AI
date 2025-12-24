@@ -146,7 +146,7 @@ InstaHelp-AI/
 11. What is DBMS?
 12. What is SQL?
 13. What is web development?
-14. Difference between frontend and backend
+14. What is the difference between frontend and backend?
 15. What are careers in computer science?
 
 ---

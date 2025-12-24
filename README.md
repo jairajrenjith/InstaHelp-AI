@@ -7,7 +7,7 @@ The chatbot prioritizes speed, correctness, and predictability, making it suitab
 
 ---
 
-## What This Project Is
+## About The Project
 
 InstaHelp-AI is an intent-recognition chatbot that uses semantic sentence embeddings to understand user queries and map them to predefined knowledge areas.
 

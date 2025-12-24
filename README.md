@@ -96,13 +96,13 @@ InstaHelp-AI/
     venv\Scripts\activate
     ```
     b. Linux / macOS:
-   ```bash
-     source venv/bin/activate
-   ```
+    ```bash
+    source venv/bin/activate
+    ```
 
 6. Install dependencies:
 
-   ```bash
+    ```bash
     pip install -r requirements.txt
     ```
 
